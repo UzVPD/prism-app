@@ -1149,5 +1149,42 @@
         "dataTitle": "Date"
       }
     }
+  },
+  "soil_map": {
+    "title": "Почвы",
+    "type": "wms",
+    "server_layer_name": "KG:SOCwgs84",
+    "base_url": "http://nsdi.kg:8080/geoserver/wms",
+    "opacity": 0.7,
+    "legend_text": "Почвы",
+    "legend": []
+  },
+  "lp_pasture_lands_batken": {
+    "title": "Малопродуктивные пастбищные угодья Баткенской области.",
+    "type": "wms",
+    "server_layer_name": "KG:Batken",
+    "base_url": "http://nsdi.kg:8080/geoserver/wms",
+    "opacity": 0.7,
+    "legend_text": "Малопродуктивные пастбищные угодья Баткенской области.",
+    "legend": []
+  },
+  "pasture_lands_up_to_2000": {
+    "title": "Пастбищные угодья КР (до 2000 м. над ур. моря)",
+    "type": "wms",
+    "server_layer_name": "KG:Пастбищные угодья КР (до 2000 м.)",
+    "base_url": "http://nsdi.kg:8080/geoserver/wms",
+    "opacity": 0.7,
+    "legend_text": "Пастбищные угодья КР (до 2000 м. над ур. моря)",
+    "legend": []
+  },
+  "pasture_map_below_20": {
+    "title": "Карта почв (балл бонитета ниже 20, до 2000 м над уровнем моря)) КР",
+    "type": "wms",
+    "server_layer_name": "KG:pochvatrioblwgs84",
+    "base_url": "http://nsdi.kg:8080/geoserver/wms",
+    "opacity": 0.7,
+    "legend_text": "Карта почв (балл бонитета ниже 20, до 2000 м над уровнем моря)) КР",
+    "legend": []
   }
 }
+

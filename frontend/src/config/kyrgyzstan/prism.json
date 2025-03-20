@@ -220,6 +220,10 @@
       "livestock": ["livestock"],
       "health_facilities": ["health_facilities"],
       "fires": ["viirs_fires_2023_06_09"]
+    },
+    "nsdi.kg": {
+      "soil": ["soil_map"],
+      "pasture_lands": ["lp_pasture_lands_batken", "pasture_lands_up_to_2000", "pasture_map_below_20"]
     }
   }
 }
